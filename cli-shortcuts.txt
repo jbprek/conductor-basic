@@ -1,0 +1,9 @@
+KBS=localhost:9092
+alias kt='kafka-topics --bootstrap-server $KBS --topic '
+alias ktl='kafka-topics --bootstrap-server $KBS --list'
+alias kc='kafka-consumer --bootstrap-server $KBS --topic '
+# sh version
+KBS=localhost:9092
+alias kt='kafka-topics.sh --bootstrap-server $KBS --topic '
+alias ktl='kafka-topics.sh --bootstrap-server $KBS --list'
+alias kc='kafka-consumer.sh --bootstrap-server $KBS --topic '
